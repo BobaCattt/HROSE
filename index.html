@@ -18,8 +18,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .screen{display:none;min-height:100vh;flex-direction:column;animation:fadeUp 0.4s ease}
 .screen.active{display:flex}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
-
-/* NAV */
 .nav{display:flex;justify-content:space-between;align-items:center;padding:20px 48px;border-bottom:0.5px solid var(--border);flex-shrink:0}
 .nav-brand{font-family:'DM Serif Display',serif;font-size:20px;letter-spacing:.5px;cursor:pointer}
 .nav-brand small{font-size:11px;display:block;font-family:'DM Sans',sans-serif;font-weight:300;color:var(--text-muted);letter-spacing:1.5px;text-transform:uppercase;margin-top:1px}
@@ -29,8 +27,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .nav-user{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text-muted)}
 .nav-user .avatar{width:30px;height:30px;border-radius:50%;background:var(--card-solid);border:0.5px solid var(--border-strong);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;color:#fff;flex-shrink:0}
 .nav-visit{font-size:11px;color:var(--text-dim);border:0.5px solid var(--border);border-radius:50px;padding:4px 12px}
-
-/* HERO */
 .hero-wrap{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:60px 40px 60px;text-align:center}
 .hero-eyebrow{font-size:11px;font-weight:500;letter-spacing:3px;text-transform:uppercase;color:var(--text-muted);margin-bottom:22px}
 .hero-title{font-family:'DM Serif Display',serif;font-size:20px;line-height:1.45;max-width:640px;margin-bottom:10px;color:var(--text-muted);font-weight:400}
@@ -42,8 +38,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .hero-stat{text-align:center}
 .hero-stat .hs-n{font-family:'DM Serif Display',serif;font-size:32px}
 .hero-stat .hs-l{font-size:11px;font-weight:300;color:var(--text-muted);letter-spacing:1px;text-transform:uppercase;margin-top:2px}
-
-/* AUTH */
 .auth-wrap{flex:1;display:flex;align-items:center;justify-content:center;padding:60px 40px}
 .auth-card{background:var(--card);border:0.5px solid var(--border);border-radius:var(--radius-lg);padding:40px;width:100%;max-width:400px}
 .auth-title{font-family:'DM Serif Display',serif;font-size:28px;margin-bottom:6px}
@@ -60,8 +54,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .btn-full{width:100%;border-radius:var(--radius-sm)}
 .auth-switch{font-size:13px;color:var(--text-muted);text-align:center;margin-top:16px}
 .auth-switch a{color:#fff;cursor:pointer;text-decoration:underline}
-
-/* SECTION */
 .section-wrap{flex:1;padding:48px;max-width:680px;margin:0 auto;width:100%}
 .step-meta{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .step-label{font-size:11px;color:var(--text-dim);letter-spacing:1.5px;text-transform:uppercase}
@@ -70,8 +62,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .section-eyebrow{font-size:11px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--text-muted);margin-bottom:8px}
 .section-title{font-family:'DM Serif Display',serif;font-size:32px;line-height:1.2;margin-bottom:8px}
 .section-desc{font-size:14px;font-weight:300;color:var(--text-muted);line-height:1.65;margin-bottom:30px}
-
-/* REACTION */
 .trial-dots{display:flex;gap:8px;margin-bottom:24px}
 .trial-dot{width:9px;height:9px;border-radius:50%;background:var(--card);border:0.5px solid var(--border);transition:background .3s}
 .trial-dot.done{background:#fff}
@@ -87,8 +77,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .trial-item{display:flex;justify-content:space-between;align-items:center;padding:10px 16px;background:var(--card);border:0.5px solid var(--border);border-radius:var(--radius-sm);font-size:14px}
 .trial-ms{font-weight:500;font-size:15px}
 .trial-qual{font-size:11px;color:var(--text-dim);letter-spacing:.5px}
-
-/* DECISION */
 .decision-area{display:flex;flex-direction:column;align-items:center;gap:12px}
 .dec-counter{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase}
 .dec-number{font-family:'DM Serif Display',serif;font-size:88px;line-height:1;text-align:center;min-height:100px;margin:10px 0}
@@ -102,8 +90,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .dec-dot.correct-dot{background:rgba(39,174,96,0.7)}
 .dec-dot.wrong-dot{background:rgba(192,57,43,0.7)}
 .dec-dot.active-dot{background:rgba(255,255,255,0.45)}
-
-/* MEMORY */
 .mem-display{background:var(--card);border:0.5px solid var(--border);border-radius:var(--radius);padding:32px;text-align:center;font-family:'DM Serif Display',serif;font-size:48px;letter-spacing:14px;min-height:110px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
 .mem-display.faded{color:var(--text-dim);letter-spacing:8px;font-size:36px}
 .mem-input{width:100%;background:var(--card);border:0.5px solid var(--border);border-radius:var(--radius-sm);padding:16px 18px;color:#fff;font-size:26px;font-family:'DM Serif Display',serif;letter-spacing:10px;text-align:center;outline:none;transition:border-color .2s}
@@ -118,8 +104,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .btn-submit{width:100%;background:var(--card-solid);border:0.5px solid var(--border-strong);color:#fff;padding:14px;border-radius:50px;font-size:15px;font-weight:400;font-family:'DM Sans',sans-serif;cursor:pointer;margin-top:14px;transition:background .2s}
 .btn-submit:hover:not(:disabled){background:rgba(255,255,255,0.28)}
 .btn-submit:disabled{opacity:.4;cursor:not-allowed}
-
-/* BIOMETRICS */
 .bio-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .bio-field{display:flex;flex-direction:column;gap:5px}
 .bio-field.full{grid-column:1/-1}
@@ -129,8 +113,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .bio-input:focus,.bio-select:focus{border-color:var(--border-strong)}
 .bio-select option{background:#8b2020;color:#fff}
 .bio-unit{font-size:11px;color:var(--text-dim);margin-top:2px}
-
-/* THANK YOU */
 .ty-wrap{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:60px 40px;text-align:center}
 .ty-icon{font-size:64px;margin-bottom:28px;line-height:1}
 .ty-title{font-family:'DM Serif Display',serif;font-size:52px;line-height:1.1;margin-bottom:16px}
@@ -144,8 +126,6 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 @keyframes spin{to{transform:rotate(360deg)}}
 .btn-ghost{background:transparent;border:0.5px solid var(--border-strong);color:#fff;padding:13px 36px;border-radius:50px;font-size:14px;font-family:'DM Sans',sans-serif;cursor:pointer;transition:background .2s}
 .btn-ghost:hover{background:var(--card)}
-
-/* ABOUT */
 .about-wrap{flex:1;padding:64px 48px;max-width:680px;margin:0 auto;width:100%}
 .about-intro{font-family:'DM Serif Display',serif;font-size:38px;line-height:1.25;margin-bottom:24px}
 .about-intro em{font-style:italic;opacity:.65}
@@ -160,17 +140,13 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
 .about-note{font-size:12px;color:var(--text-dim);background:var(--card);border:0.5px solid var(--border);border-radius:var(--radius-sm);padding:14px 18px;line-height:1.65;margin-top:32px}
 .author-tag{display:inline-block;margin-top:24px;font-size:12px;color:var(--text-dim);letter-spacing:.5px}
 .author-tag strong{color:var(--text-muted);font-weight:500}
-
-/* FOOTER */
 .footer{text-align:center;padding:14px 40px 20px;border-top:0.5px solid var(--border);flex-shrink:0}
 .footer-inner{font-size:11px;color:var(--text-dim);line-height:1.8}
-.footer-inner a{color:var(--text-dim);text-decoration:none}
-.footer-inner a:hover{color:var(--text-muted)}
 </style>
 </head>
 <body>
 
-<!-- ══════════════════════════════ HOME ══════════════════════════════ -->
+<!-- HOME -->
 <div class="screen active" id="scr-home">
   <nav class="nav">
     <div class="nav-brand" onclick="goTo('scr-home')">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -196,7 +172,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   <div class="footer"><div class="footer-inner">HROSE &nbsp;·&nbsp; Developed by <strong style="color:var(--text-muted)">Jack Cheng</strong> &nbsp;·&nbsp; For research purposes only</div></div>
 </div>
 
-<!-- ══════════════════════════════ AUTH ══════════════════════════════ -->
+<!-- AUTH -->
 <div class="screen" id="scr-auth">
   <nav class="nav">
     <div class="nav-brand" onclick="goTo('scr-home')">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -230,7 +206,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   <div class="footer"><div class="footer-inner">HROSE &nbsp;·&nbsp; Developed by <strong style="color:var(--text-muted)">Jack Cheng</strong></div></div>
 </div>
 
-<!-- ══════════════════════════════ REACTION ══════════════════════════════ -->
+<!-- REACTION -->
 <div class="screen" id="scr-reaction">
   <nav class="nav">
     <div class="nav-brand" onclick="confirmExit()">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -251,7 +227,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   </div>
 </div>
 
-<!-- ══════════════════════════════ DECISION ══════════════════════════════ -->
+<!-- DECISION -->
 <div class="screen" id="scr-decision">
   <nav class="nav">
     <div class="nav-brand">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -275,7 +251,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   </div>
 </div>
 
-<!-- ══════════════════════════════ MEMORY ══════════════════════════════ -->
+<!-- MEMORY -->
 <div class="screen" id="scr-memory">
   <nav class="nav">
     <div class="nav-brand">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -286,7 +262,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
     <div class="progress-track"><div class="progress-fill" style="width:75%"></div></div>
     <p class="section-eyebrow">Cognitive Module 3</p>
     <h2 class="section-title">Working Memory</h2>
-    <p class="section-desc" id="mem-desc">Sequences grow longer as you answer correctly. The test ends after two wrong answers. Minimum three rounds.</p>
+    <p class="section-desc" id="mem-desc">Sequences grow longer as you answer correctly. The test ends the first time you get one wrong, provided you have completed at least three rounds.</p>
     <div class="mem-score" id="mem-score"></div>
     <div class="mem-display" id="mem-display">Ready?</div>
     <p class="mem-prompt" id="mem-prompt">Press Show Sequence to begin.</p>
@@ -295,7 +271,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   </div>
 </div>
 
-<!-- ══════════════════════════════ BIOMETRICS ══════════════════════════════ -->
+<!-- BIOMETRICS -->
 <div class="screen" id="scr-bio">
   <nav class="nav">
     <div class="nav-brand">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -342,13 +318,13 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   </div>
 </div>
 
-<!-- ══════════════════════════════ THANK YOU ══════════════════════════════ -->
+<!-- THANK YOU -->
 <div class="screen" id="scr-thankyou">
   <nav class="nav">
     <div class="nav-brand">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
   </nav>
   <div class="ty-wrap">
-    <div class="ty-icon">👏</div>
+    <div class="ty-icon">🌿</div>
     <h1 class="ty-title">Thank you.</h1>
     <p class="ty-sub">Your participation in this study is greatly appreciated.</p>
     <p class="ty-note">Your responses have been recorded and will contribute to ongoing cardiovascular health research. You may now close this window, or return to the home page.</p>
@@ -361,7 +337,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   <div class="footer"><div class="footer-inner">HROSE &nbsp;·&nbsp; Developed by <strong style="color:var(--text-muted)">Jack Cheng</strong> &nbsp;·&nbsp; For research purposes only</div></div>
 </div>
 
-<!-- ══════════════════════════════ ABOUT ══════════════════════════════ -->
+<!-- ABOUT -->
 <div class="screen" id="scr-about">
   <nav class="nav">
     <div class="nav-brand" onclick="goTo('scr-home')">HROSE<small>Hypertension Risk Online Sensory Evaluator</small></div>
@@ -391,7 +367,7 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
       <div class="module-card">
         <div class="module-tag">Module 3 · Cognitive</div>
         <h4>Working Memory (Adaptive Digit Span)</h4>
-        <p>A sequence of digits is briefly displayed, then hidden. You must enter the sequence from memory. Sequence length starts at 4 digits and increases with each correct answer. The test ends after two consecutive wrong answers, with a minimum of three rounds. The maximum span reached and overall accuracy are both recorded.</p>
+        <p>A sequence of digits is briefly displayed, then hidden. You must enter the sequence from memory. Sequence length starts at 4 digits and increases by one with each correct answer (up to 8). The test ends the first time a wrong answer is given, provided at least three rounds have been completed. Your maximum span reached and overall accuracy are both recorded.</p>
       </div>
       <div class="module-card">
         <div class="module-tag">Module 4 · Biometric</div>
@@ -412,19 +388,14 @@ html,body{width:100%;min-height:100vh;font-family:'DM Sans',sans-serif;backgroun
   <div class="footer"><div class="footer-inner">HROSE &nbsp;·&nbsp; Developed by <strong style="color:var(--text-muted)">Jack Cheng</strong> &nbsp;·&nbsp; For research purposes only</div></div>
 </div>
 
-<!-- ══════════════════════════════ JAVASCRIPT ══════════════════════════════ -->
 <script>
 /* ═══════════════════════════════════════════════════════════
    CONFIGURATION — paste your Google Apps Script URL here
 ═══════════════════════════════════════════════════════════ */
-var SHEET_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID_HERE/exec";
+var SHEET_URL = "https://script.google.com/macros/s/AKfycbzwAbBbFrlTT6YeaOZTCqYuendvn1oge28fWtUauqVQX3-5jmetXoh_QZxZRBTrG2RodQ/exec";
 
-/* ══════════════════════════════
-   VISIT COUNTER
-   — fetches from Apps Script so count is cross-device
-══════════════════════════════ */
+/* VISIT COUNTER */
 function loadVisitCount() {
-  // Use a JSONP-style request so Apps Script can respond without CORS issues
   var cb = 'hroseVisitCB_' + Date.now();
   window[cb] = function(data) {
     var v = (data && data.visits) ? parseInt(data.visits) : '—';
@@ -433,7 +404,6 @@ function loadVisitCount() {
     var vh = document.getElementById('visits-hero');
     if (vb) vb.textContent = fmt + ' visits';
     if (vh) vh.textContent = fmt;
-    // clean up
     delete window[cb];
     var s = document.getElementById('jsonp-visit');
     if (s) s.parentNode.removeChild(s);
@@ -441,16 +411,11 @@ function loadVisitCount() {
   var script = document.createElement('script');
   script.id = 'jsonp-visit';
   script.src = SHEET_URL + '?action=visit&callback=' + cb;
-  script.onerror = function() {
-    // fallback: show nothing rather than crash
-    delete window[cb];
-  };
+  script.onerror = function() { delete window[cb]; };
   document.body.appendChild(script);
 }
 
-/* ══════════════════════════════
-   AUTH
-══════════════════════════════ */
+/* AUTH */
 var currentUser = null;
 function getUsers()  { return JSON.parse(localStorage.getItem('hrose_users') || '{}'); }
 function saveUsers(u){ localStorage.setItem('hrose_users', JSON.stringify(u)); }
@@ -468,7 +433,7 @@ function doLogin() {
   var u = document.getElementById('login-user').value.trim();
   var p = document.getElementById('login-pass').value;
   var users = getUsers();
-  if (!users[u])             { document.getElementById('login-err').textContent = 'Username not found.';   return; }
+  if (!users[u])              { document.getElementById('login-err').textContent = 'Username not found.';   return; }
   if (users[u].pw !== btoa(p)){ document.getElementById('login-err').textContent = 'Incorrect password.'; return; }
   currentUser = { username: u, name: users[u].name };
   updateNavUser();
@@ -479,11 +444,11 @@ function doRegister() {
   var name = document.getElementById('reg-name').value.trim();
   var u    = document.getElementById('reg-user').value.trim();
   var p    = document.getElementById('reg-pass').value;
-  if (!name || !u || !p)  { document.getElementById('reg-err').textContent = 'All fields are required.';          return; }
-  if (u.length < 3)        { document.getElementById('reg-err').textContent = 'Username: minimum 3 characters.';  return; }
-  if (p.length < 4)        { document.getElementById('reg-err').textContent = 'Password: minimum 4 characters.';  return; }
+  if (!name || !u || !p) { document.getElementById('reg-err').textContent = 'All fields are required.';         return; }
+  if (u.length < 3)       { document.getElementById('reg-err').textContent = 'Username: minimum 3 characters.'; return; }
+  if (p.length < 4)       { document.getElementById('reg-err').textContent = 'Password: minimum 4 characters.'; return; }
   var users = getUsers();
-  if (users[u])            { document.getElementById('reg-err').textContent = 'Username already taken.';          return; }
+  if (users[u])           { document.getElementById('reg-err').textContent = 'Username already taken.';         return; }
   users[u] = { name: name, pw: btoa(p) };
   saveUsers(users);
   currentUser = { username: u, name: name };
@@ -491,11 +456,7 @@ function doRegister() {
   goTo('scr-home');
 }
 
-function doLogout() {
-  currentUser = null;
-  updateNavUser();
-  goTo('scr-home');
-}
+function doLogout() { currentUser = null; updateNavUser(); goTo('scr-home'); }
 
 function updateNavUser() {
   var el = document.getElementById('nav-home');
@@ -528,9 +489,7 @@ function setNavForScreen(id) {
   }
 }
 
-/* ══════════════════════════════
-   NAVIGATION
-══════════════════════════════ */
+/* NAVIGATION */
 function goTo(id) {
   document.querySelectorAll('.screen').forEach(function(s){ s.classList.remove('active'); });
   document.getElementById(id).classList.add('active');
@@ -539,23 +498,15 @@ function goTo(id) {
 function confirmExit() { if (confirm('Exit assessment? Progress will be lost.')) goTo('scr-home'); }
 function handleStartClick() { startAssessment(); }
 
-/* ══════════════════════════════
-   STATE
-══════════════════════════════ */
+/* STATE */
 var S = {};
 
 function startAssessment() {
   S = {
     reactionTimes: [], reactTrial: 0, reactPhase: 'idle', reactTimer: null, reactStart: 0,
     decScores: [], decRound: 0, decStart: 0, decCurrentNum: 0,
-    // Memory: adaptive digit span
-    memLevel: 4,         // current sequence length
-    memCorrect: 0,       // total correct rounds
-    memTotal: 0,         // total rounds attempted
-    memConsecWrong: 0,   // consecutive wrong answers — test ends at 2
-    memMaxLevel: 4,      // highest span reached
-    memPhase: 'ready',
-    memCurrentSeq: [],
+    memLevel: 4, memCorrect: 0, memTotal: 0, memMaxLevel: 4,
+    memPhase: 'ready', memCurrentSeq: [],
   };
   goTo('scr-reaction');
   setNavForScreen('nav-reaction');
@@ -563,9 +514,7 @@ function startAssessment() {
   initReaction();
 }
 
-/* ══════════════════════════════
-   REACTION
-══════════════════════════════ */
+/* REACTION */
 function initReaction() {
   var dots = document.getElementById('trial-dots');
   dots.innerHTML = '';
@@ -643,9 +592,7 @@ function addTrialItem(i, rt) {
   document.getElementById('trial-list').appendChild(div);
 }
 
-/* ══════════════════════════════
-   DECISION
-══════════════════════════════ */
+/* DECISION */
 function startDecision() {
   S.decRound = 0; S.decScores = [];
   goTo('scr-decision');
@@ -688,17 +635,14 @@ function decisionAnswer(ans) {
   setTimeout(nextDecision, 500);
 }
 
-/* ══════════════════════════════
-   MEMORY — adaptive digit span
-   Rules:
+/* MEMORY — adaptive digit span
    - Minimum 3 rounds always played
-   - Correct: increase span by 1 (max 8), reset consecutive-wrong counter
-   - Wrong:   keep span same, increment consecutive-wrong counter
-   - Test ends when consecutive wrong = 2 AND total rounds >= 3
-══════════════════════════════ */
+   - Correct: span +1 (max 8)
+   - Wrong: end the test if memTotal >= 3, otherwise continue
+*/
 function startMemory() {
   S.memLevel = 4; S.memCorrect = 0; S.memTotal = 0;
-  S.memConsecWrong = 0; S.memMaxLevel = 4; S.memPhase = 'ready';
+  S.memMaxLevel = 4; S.memPhase = 'ready';
   goTo('scr-memory');
   setNavForScreen('nav-memory');
   document.getElementById('mem-step-user').textContent = userLabel();
@@ -714,7 +658,7 @@ function startMemory() {
 function resetMemBtn(label, fn) {
   var btn = document.getElementById('mem-btn');
   btn.textContent = label;
-  btn.disabled = false;
+  btn.disabled = !fn;
   btn.onclick = fn;
 }
 
@@ -725,7 +669,6 @@ function addMemPip(pass) {
 }
 
 function memoryAction() {
-  // ── Phase: show a new sequence ──
   if (S.memPhase === 'ready' || S.memPhase === 'next') {
     S.memCurrentSeq = Array.from({ length: S.memLevel }, function() { return Math.floor(Math.random() * 10); });
     document.getElementById('mem-display').textContent = S.memCurrentSeq.join(' ');
@@ -733,7 +676,6 @@ function memoryAction() {
     document.getElementById('mem-prompt').textContent = 'Memorise this sequence…';
     document.getElementById('mem-input').disabled = true;
     resetMemBtn('Memorising…', null);
-    document.getElementById('mem-btn').disabled = true;
     S.memPhase = 'showing';
     var dur = S.memLevel <= 4 ? 2500 : S.memLevel <= 6 ? 3200 : 4000;
     setTimeout(function() {
@@ -747,33 +689,29 @@ function memoryAction() {
       S.memPhase = 'input';
     }, dur);
 
-  // ── Phase: check answer ──
   } else if (S.memPhase === 'input') {
     var raw = document.getElementById('mem-input').value.replace(/\s+/g, '').split('').map(Number);
     var correct = JSON.stringify(raw) === JSON.stringify(S.memCurrentSeq);
     S.memTotal++;
     document.getElementById('mem-input').disabled = true;
 
+    var endTest = !correct && S.memTotal >= 3;
+
     if (correct) {
       S.memCorrect++;
-      S.memConsecWrong = 0;
       S.memLevel = Math.min(S.memLevel + 1, 8);
       S.memMaxLevel = Math.max(S.memMaxLevel, S.memLevel);
       document.getElementById('mem-prompt').textContent = '✓ Correct! Span increasing to ' + S.memLevel + ' digits.';
       addMemPip(true);
     } else {
-      S.memConsecWrong++;
-      document.getElementById('mem-prompt').textContent = '✗ Incorrect. Answer was: ' + S.memCurrentSeq.join(' ');
+      document.getElementById('mem-prompt').textContent = '✗ Incorrect. Answer was: ' + S.memCurrentSeq.join(' ')
+        + (endTest ? '  —  Test complete.' : '  Keep going.');
       addMemPip(false);
     }
 
-    // ── Decide whether to continue or end ──
-    var canEnd = S.memTotal >= 3 && S.memConsecWrong >= 2;
     S.memPhase = 'next';
 
-    if (canEnd) {
-      // Test is over
-      document.getElementById('mem-prompt').textContent += '  —  Test complete.';
+    if (endTest) {
       resetMemBtn('Continue to biometrics →', function() {
         goTo('scr-bio');
         setNavForScreen('nav-bio');
@@ -785,13 +723,7 @@ function memoryAction() {
   }
 }
 
-/* ══════════════════════════════
-   SUBMIT — JSONP to Google Sheets
-   Apps Script does not send CORS headers, so fetch() with mode:'cors'
-   fails and mode:'no-cors' silently swallows the response.
-   JSONP injects a <script> tag that calls our callback function,
-   bypassing CORS entirely — the same technique as the visit counter.
-══════════════════════════════ */
+/* SUBMIT via JSONP */
 function submitAssessment() {
   var age = parseInt(document.getElementById('bio-age').value);
   var hr  = parseInt(document.getElementById('bio-hr').value);
@@ -804,44 +736,28 @@ function submitAssessment() {
     return;
   }
 
-  var bmi       = parseFloat((wt / Math.pow(ht / 100, 2)).toFixed(1));
-  var times     = S.reactionTimes;
-  var meanRT    = Math.round(times.reduce(function(a, b){ return a + b; }, 0) / times.length);
-  var variance  = times.reduce(function(a, b){ return a + Math.pow(b - meanRT, 2); }, 0) / times.length;
-  var sdRT      = Math.round(Math.sqrt(variance));
-  var decCorrect= S.decScores.filter(function(d){ return d.correct; }).length;
-  var decMeanRT = Math.round(S.decScores.reduce(function(a, b){ return a + b.rt; }, 0) / S.decScores.length);
-  var memAcc    = Math.round((S.memCorrect / Math.max(S.memTotal, 1)) * 100);
+  var bmi      = parseFloat((wt / Math.pow(ht / 100, 2)).toFixed(1));
+  var times    = S.reactionTimes;
+  var meanRT   = Math.round(times.reduce(function(a,b){ return a+b; },0) / times.length);
+  var variance = times.reduce(function(a,b){ return a + Math.pow(b-meanRT,2); },0) / times.length;
+  var sdRT     = Math.round(Math.sqrt(variance));
+  var decCorrect = S.decScores.filter(function(d){ return d.correct; }).length;
+  var decMeanRT  = Math.round(S.decScores.reduce(function(a,b){ return a+b.rt; },0) / S.decScores.length);
+  var memAcc     = Math.round((S.memCorrect / Math.max(S.memTotal,1)) * 100);
 
   var params = {
-    action:      'submit',
-    username:    currentUser ? currentUser.username : 'guest',
-    age:         age,
-    hr:          hr,
-    weight:      wt,
-    height:      ht,
-    bmi:         bmi,
-    sex:         sex,
-    rt1:         times[0] || '',
-    rt2:         times[1] || '',
-    rt3:         times[2] || '',
-    rt4:         times[3] || '',
-    rt5:         times[4] || '',
-    meanRT:      meanRT,
-    sdRT:        sdRT,
-    decCorrect:  decCorrect,
-    decMeanRT:   decMeanRT,
-    memAcc:      memAcc,
-    memMaxLevel: S.memMaxLevel,
-    memTotal:    S.memTotal,
-    memCorrect:  S.memCorrect
+    action: 'submit',
+    username: currentUser ? currentUser.username : 'guest',
+    age: age, hr: hr, weight: wt, height: ht, bmi: bmi, sex: sex,
+    rt1: times[0]||'', rt2: times[1]||'', rt3: times[2]||'', rt4: times[3]||'', rt5: times[4]||'',
+    meanRT: meanRT, sdRT: sdRT,
+    decCorrect: decCorrect, decMeanRT: decMeanRT,
+    memAcc: memAcc, memMaxLevel: S.memMaxLevel, memTotal: S.memTotal, memCorrect: S.memCorrect
   };
 
-  // Show thank you screen immediately — don't make the patient wait
   goTo('scr-thankyou');
   setStatus('sending', 'Submitting your responses…', true);
 
-  // Build JSONP request
   var cb = 'hroseSubmitCB_' + Date.now();
   window[cb] = function(data) {
     if (data && data.result === 'success') {
@@ -874,10 +790,8 @@ function setStatus(type, msg, spinner) {
   document.getElementById('ty-status-text').textContent = msg;
 }
 
-/* ══════════════════════════════
-   INIT
-══════════════════════════════ */
-updateNavUser();   // also calls loadVisitCount()
+/* INIT */
+updateNavUser();
 </script>
 </body>
 </html>
